@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "349169675805",
+    "firebase_url": "https://tourism-hamilton.firebaseio.com",
+    "project_id": "tourism-hamilton",
+    "storage_bucket": "tourism-hamilton.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349169675805:android:c476fc7a58b4f73f",
+        "android_client_info": {
+          "package_name": "com.example.geon.tourismhamilton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349169675805-9jg7ts0aecq1gmaeeas73j8bg8bgdlji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrupgBeL8KW5UrwTjNLBm3GJqkVk1J1n4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
