@@ -6,51 +6,26 @@
 @import 'libs/html-grid';
 
 /*
-	Hyperspace by HTML5 UP
+	Fractal by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Spotlights */
+/* Header */
 
-	.spotlights {
-		> section {
-			> .image {
-				&:before {
-					opacity: 0 !important;
-				}
+	#header {
+		body.is-preload & {
+			.content {
+				@include vendor('transform', 'none');
+				opacity: 1;
 			}
 
-			> .content {
-				> .inner {
-					@include vendor('transform', 'none !important');
-					opacity: 1 !important;
-				}
-			}
-		}
-	}
+			.image {
+				@include vendor('transform', 'none');
+				opacity: 1;
 
-/* Wrapper */
-
-	.wrapper {
-		> .inner {
-			opacity: 1 !important;
-			@include vendor('transform', 'none !important');
-		}
-	}
-
-/* Sidebar */
-
-	#sidebar {
-		> .inner {
-			opacity: 1 !important;
-		}
-
-		nav {
-			> ul {
-				> li {
-					@include vendor('transform', 'none !important');
-					opacity: 1 !important;
+				img {
+					opacity: 1;
 				}
 			}
 		}
