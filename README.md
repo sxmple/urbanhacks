@@ -1,7 +1,4 @@
 # tourismHamilton
-
-
-<h1> tourismHamilton </h1>
 <h3> software(s) used : Android Studio (latest build), Google Cloud Platform</h1>
 
 
