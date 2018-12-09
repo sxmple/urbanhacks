@@ -1,5 +1,5 @@
-# urbanhacks
+# tourismHamilton
 
 
-Program used : Android Studio (latest build) 
+ 
 
